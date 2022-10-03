@@ -32,8 +32,8 @@ driver.set_window_size(300,524)
 driver.implicitly_wait(20)
 driver.get(url) 
 
-textUser = "lizeth.martinez"
-textPassword = "e343ew111"
+textUser = "HeinerAcosta"
+textPassword = "12345"
 inputUser = driver.find_element(by=By.NAME, value="user_name")
 inputPassword = driver.find_element(by=By.NAME, value="username_password")
 sendButton = driver.find_element(by=By.NAME, value="Login")
